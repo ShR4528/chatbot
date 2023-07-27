@@ -5,6 +5,7 @@ import urllib.parse
 from collections import deque
 import re
 
+
 user_url = str(input('[+] Enter Target URL To Scan: '))
 urls = deque([user_url])
 
